@@ -32,8 +32,9 @@ void printList(Node* head){
 }
 int main() {
     Node* head = NULL;
-    insertNode(&head, 1);
-    insertNode(&head, 2);
+    insertNode(&head, 17);
+    insertNode(&head, 23);
+    insertNode(&head, 15);
     insertNode(&head, 3);
     printList(head);
 }
